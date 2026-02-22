@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scamazon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Scamazon</h1>
+        <!-- Search Bar -->
+        <input type="text" id="searchInput" placeholder="Search Products...">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="men's clothing">Men</option>
+            <option value="women's clothing">Women</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelery</option>
+        </select>
+        <!-- Loading Text -->
+        <p id="loading">Loading Products...</p>
+        <!-- Products Grid -->
+        <div id="productsContainer" class="products"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
